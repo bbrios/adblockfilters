@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241208094019
-! Last modified: 2024/12/08 09:40:19
-! Blocked Filters: 40935
+! Version: 20241208162300
+! Last modified: 2024/12/08 16:23:00
+! Blocked Filters: 40909
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -5697,13 +5697,8 @@
 ##.ad-horizontal-large
 ##.ad-horizontal-top
 ##.ad-horizontal-top-wrapper
-##.ad-house-btac
-##.ad-housepromo-d-wrapper
 ##.ad-hoverable
 ##.ad-hpto
-##.ad-href1
-##.ad-href2
-##.ad-iab-txt
 ##.ad-icon
 ##.ad-identifier
 ##.ad-iframe
@@ -10208,7 +10203,6 @@
 ##.companion_ad
 ##.complex-ad
 ##.component-ar-horizontal-bar-ad
-##.component-header-sticky-ad
 ##.component-outbrain
 ##.components-Ad-___Ad__ad
 ##.con_ads
@@ -10278,13 +10272,10 @@
 ##.content-advertisment
 ##.content-bottom-ad
 ##.content-bottom-mpu
-##.content-cliff__ad
-##.content-cliff__ad-container
 ##.content-contentad
 ##.content-footer-ad
 ##.content-footer-ad-block
 ##.content-header-ad
-##.content-item-ad-top
 ##.content-kuss-ads
 ##.content-leaderboard-ad
 ##.content-leaderboard-ads
@@ -10332,21 +10323,16 @@
 ##.contentad-superbanner-2
 ##.contentad-top
 ##.contentad2
-##.contentad300x250
-##.contentad_right_col
 ##.contentadarticle
-##.contentadfloatl
 ##.contentadleft
 ##.contentads1
 ##.contentads2
 ##.contentbox_ad
 ##.contentleftad
-##.contents-ads-bottom-left
 ##.contest_ad
 ##.context-ads
 ##.contextualAds
 ##.contextual_ad_unit
-##.coreAdsPlacer
 ##.corner-gg
 ##.cornerad
 ##.couplet_9cb0d
@@ -10389,7 +10375,6 @@
 ##.customized_ad_module
 ##.cwAdvert
 ##.cxAdvertisement
-##.d1-top-ad
 ##.d3-c-adblock
 ##.d3-o-adv-block
 ##.d_banner_inner
@@ -10397,7 +10382,6 @@
 ##.dabc > .ng-star-inserted
 ##.dabf > .ng-star-inserted
 ##.dac__banner__wrapper
-##.dac__mpu-card
 ##.daily-adlabel
 ##.dart-ad
 ##.dart-ad-content
@@ -10415,9 +10399,6 @@
 ##.dartiframe
 ##.davwheat-ad
 ##.dc-ad
-##.dc-banner
-##.dc-half-banner
-##.dc-widget-adv-125
 ##.dcmads
 ##.dd-ad
 ##.dd-ad-container
@@ -11747,7 +11728,6 @@
 ##.js_midbanner_ad_slot
 ##.js_movable_ad_slot
 ##.js_preheader-ad-container
-##.js_related-stories-inset
 ##.js_slideshow-full-width-ad
 ##.js_slideshow-sidebar-ad
 ##.js_sticky-top-ad
@@ -12537,7 +12517,6 @@
 ##.overlay-ads
 ##.overlay-box-ad
 ##.overlay_ad
-##.ox-holder
 ##.p-ad
 ##.p-ad-block
 ##.p-ad-dfp-banner
@@ -12554,10 +12533,6 @@
 ##.p_topad
 ##.package_adBox
 ##.padAdvx
-##.padded-ad
-##.paddingBotAd
-##.pads2
-##.pads_bulk_widget
 ##.padvertlabel
 ##.page > .wp-none1
 ##.page-ad
@@ -12629,7 +12604,6 @@
 ##.pcgg
 ##.pd-ads-mpu
 ##.pdpads
-##.pdpads_desktop
 ##.penci-ad-box
 ##.penci-ad-image
 ##.penci-ad_box
@@ -28253,6 +28227,7 @@ blogbugs.org,tallermaintenancar.com,zuzandra.com##.player-right
 bloggif.com,lolalytics.com,migraine.com,technobuffalo.com,bloomberg.com,moviefone.com,gamerconfig.eu###leaderboard
 blogspot.com,web.app##img[onclick="kemana()"]
 bloomberg.com,speedtest.net##div[data-ad-placeholder]
+bloomberg.com,weatherpro.com,wordfinder.yourdictionary.com##.leaderboard-wrapper
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,lolalytics.com,oilersnation.com,theleafsnation.com##.h-\[90px\]
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com###ad_sidebar_2
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com###box_2_300x600
@@ -36451,7 +36426,6 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-weatherpro.com,wordfinder.yourdictionary.com##.leaderboard-wrapper
 web-capture.net,mirror.co.uk,cryptoslate.com##.partner
 web1s.asia,mizugigurabia.com,matomeiru.com,pornleaks.in,insideeducation.co.za,tirumalatirupatiyatra.in,geekering.com,banfaucet.com,trigonevo.com,digter8.com,ymknow.xyz,nullpk.com,onemarksolution.com,oportaln10.com.br,adslide.io,meteoregioneabruzzo.it,descargaseriestv.com,animexin.vip,bitview.cloud,camcam.cc,60fps.xyz,s1os.icu,shineads.org,azoranov.com,jenismac.com,nsw2u.*,unofficialtwrp.com,downloadlyir.com,pinsystem.co.uk,173.249.8.3,rttar.com,torrentmac.net#%#//scriptlet('abort-current-inline-script', 'eval', 'split')
 webdesignledger.com#$?#iframe[src=""] { position: absolute !important; left: -3000px !important; }
