@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250120091917
-! Last modified: 2025/01/20 09:19:17
-! Blocked domains: 5583
+! Version: 20250120162332
+! Last modified: 2025/01/20 16:23:32
+! Blocked domains: 5585
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -142,7 +142,7 @@
 ||168ad.cc^
 ||cvda.17173.com^
 ||log1.17173.com^
-||stat.v.17173.com^
+||vda.17173.com^
 ||s.17173cdn.com^
 ||178gg.com^
 ||trk1.17admob.com^
@@ -220,6 +220,7 @@
 ||360ads.com^
 ||360app.cn^
 ||cps.360buy.com^
+||static-alias-1.360buyimg.com^
 ||domcwlxin.360doc.cn^
 ||dtnaximya.360doc.cn^
 ||hcirentgh.360doc.cn^
@@ -735,7 +736,6 @@
 ||antarctic.com^
 ||api.antibanads.com^
 ||anysdk.com^
-||aogk88.asia^
 ||aoopj.top^
 ||aoqinglv.cn^
 ||app-analytics-services.com^
@@ -986,6 +986,7 @@
 ||bangqidq.com^
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
+||a.baomihua.com^
 ||bartender.cc^
 ||etwvvde.baspk.cn^
 ||ydwhinh.baspk.cn^
@@ -1105,6 +1106,7 @@
 ||creative.bxsnews.com^
 ||bxwccii.cn^
 ||correosytelegrafos.bxze.cn^
+||monitor-frontend-collector.a.bybit-aws.com^
 ||bydcxdy.cn^
 ||byscy.cn^
 ||dm.bytedance.com^
@@ -1127,6 +1129,7 @@
 ||dispatcher-bsy.c360dn.com^
 ||caduka.cn^
 ||download.caihong.com^
+||apollo.caixin.com^
 ||gg.caixin.com^
 ||pinggai5.caixin.com^
 ||ad.caiyunapp.com^
@@ -1201,6 +1204,7 @@
 ||rankhit.china.com^
 ||sssvd.china.com^
 ||union.china.com.cn^
+||chinaapper.com^
 ||adpic.chinadaily.com.cn^
 ||same.chinadaily.com.cn^
 ||usercollection.chinadaily.com.cn^
@@ -1312,11 +1316,11 @@
 ||coreldrawchina.com^
 ||course-forge.com^
 ||adt.cpatrk.net^
-||ap.cpatrk.net^
 ||me.cpatrk.net^
 ||tdsdk.cpatrk.net^
 ||cpc.cc^
 ||global.cphi-china.cn^
+||agapi.cqjjb.cn^
 ||cbjg.cqnews.net^
 ||cqtlimi.cn^
 ||crasheye.cn^
@@ -1400,6 +1404,7 @@
 ||events-drcn.op.dbankcloud.cn^
 ||grs.dbankcloud.cn^
 ||httpdns-browser.platform.dbankcloud.cn^
+||httpdns.platform.dbankcloud.cn^
 ||hwpub-s01-drcn.cloud.dbankcloud.cn^
 ||logservice-dre.platform.dbankcloud.cn^
 ||logservice1.dbankcloud.cn^
@@ -1960,6 +1965,7 @@
 ||a.guzhilin.com^
 ||guzsjdl.cn^
 ||gw2cddpt2hao.asia^
+||gw2cddpt2hao.cloud^
 ||gwmrb.cn^
 ||gwrpceo.cn^
 ||fpb1.gxfin.com^
@@ -2020,6 +2026,7 @@
 ||happlyoe.cc^
 ||hapying.com^
 ||hashnest.com^
+||havn.com.vn^
 ||hbalx.cn^
 ||img1.hblds.com^
 ||hbzhenquan.cn^
@@ -2199,6 +2206,7 @@
 ||httpdns.huaweicloud.com^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
+||hufajushi.top^
 ||huishenghuiying.com.cn^
 ||huiun.com^
 ||mc.hujiang.com^
@@ -2238,6 +2246,7 @@
 ||ad.hzyoka.com^
 ||hzyxd.cn^
 ||i-fk.cn^
+||i0k.cc^
 ||ios-pclog.i4.cn^
 ||i7ko6bz.cn^
 ||dd.iask.cn^
@@ -2345,6 +2354,7 @@
 ||ixvdfqi.inqku.cn^
 ||qlvzjmtg.inqku.cn^
 ||qvesjkub.inqku.cn^
+||insagfasvpass.com^
 ||insenz.com^
 ||instreet.cn^
 ||ainu.intel.cn^
@@ -2395,6 +2405,7 @@
 ||tracker.sns.iqiyi.com^
 ||yuedu.iqiyi.com^
 ||am.g.ireader.com^
+||irs01.com^
 ||irs03.com^
 ||irulws.xyz^
 ||iscrv.com^
@@ -2436,7 +2447,6 @@
 ||dev.iyuba.cn^
 ||iyuedu.cn.com^
 ||log.iyunmai.com^
-||tg.iyutong.cn^
 ||izalflh.cn^
 ||adapi.izuiyou.com^
 ||adstat.izuiyou.com^
@@ -2627,11 +2637,11 @@
 ||adl.kkguan.com^
 ||houyi.kkmh.com^
 ||ipv4.kkmh.com^
+||affiliate.klook.com^
 ||tjjs.km.com^
 ||kmgfjc.cn^
 ||ykkvnoxal.kmhul.cn^
 ||kmpxq.cn^
-||kmwclt.xyz^
 ||kmzayrt.cn^
 ||kxlogo.knet.cn^
 ||rr.knet.cn^
@@ -2846,7 +2856,6 @@
 ||sanme2.lanzoui.com^
 ||wap1.laogu.wang^
 ||wap2.laogu.wang^
-||sensors.larkplayerapp.com^
 ||images.newsletter.larksuite.com^
 ||c.lattebank.com^
 ||un1.lawyernet.cn^
@@ -2875,6 +2884,7 @@
 ||src.leju.com^
 ||tongji.leju.com^
 ||lejuliang.com^
+||lelexing.cn^
 ||analyze.lemurbrowser.com^
 ||app.update.lenovo.com^
 ||click.lenovo.com^
@@ -2934,6 +2944,7 @@
 ||v88.live800.com^
 ||mkadsearch.lizhifm.com^
 ||ljrtb.cn^
+||aeon.co.jp.ultimac.lkvya.cn^
 ||a.llysc.cn^
 ||lm665.com^
 ||bffbdo.lmsae.cn^
@@ -3106,7 +3117,6 @@
 ||microad-cn.com^
 ||microad.jp^
 ||stat.microvirt.com^
-||pylon.micstatic.com^
 ||apiwz.midukanshu.com^
 ||track.midway.run^
 ||app.log.nf.migu.cn^
@@ -3265,6 +3275,7 @@
 ||projecta-common-1258344701.file.myqcloud.com^
 ||redpaper-10006092.cos.myqcloud.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
+||bibo.myshoplaza.com^
 ||saadsfds7.myshoplaza.com^
 ||analytics.myshoptago.com^
 ||mytanwan.com^
@@ -3275,7 +3286,6 @@
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
 ||logs.nandu.com^
-||fp.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -3308,6 +3318,7 @@
 ||webd.home.news.cn^
 ||al.newxue.com^
 ||ggdm1.nhaidu.net^
+||nhjsw.cn^
 ||nimaxrv.cn^
 ||down.nishuoa.com^
 ||nithisp.cn^
@@ -3319,7 +3330,6 @@
 ||nlyuuy.cn^
 ||nmgyllh.cn^
 ||nmrdnqn.cn^
-||tracking.novabeyond.com^
 ||web.novogene.com^
 ||a.nowscore.com^
 ||z.nowscore.com^
@@ -3833,6 +3843,7 @@
 ||wxaintpcos.wxqcloud.qq.com.cn^
 ||qq937.com^
 ||a1.qqan.com^
+||down.qqfarmer.com.cn^
 ||www.qqqmy.com^
 ||tweb.qqtax.cn^
 ||sdk-ab-config.qquanquan.com^
@@ -3883,7 +3894,6 @@
 ||r75tia.cn^
 ||a2.rabbitpre.com^
 ||event.raise3d.cn^
-||rayjump.com^
 ||rbioclv.cn^
 ||rbrbr88p.cn^
 ||rcaig.cn^
@@ -3943,6 +3953,7 @@
 ||rwpt.top^
 ||wwwv.smbc-card.tomyment.rxvecn.cn^
 ||rxys.cn^
+||rydfinance.com^
 ||ryre.cn^
 ||vinted-pl-gj32d.ryuji.top^
 ||rz261.cn^
@@ -4079,14 +4090,8 @@
 ||d0.sina.com.cn^
 ||d00.sina.com.cn^
 ||d1.sina.com.cn^
-||d2.sina.com.cn^
-||d3.sina.com.cn^
 ||d4.sina.com.cn^
-||d5.sina.com.cn^
-||d6.sina.com.cn^
 ||d7.sina.com.cn^
-||d8.sina.com.cn^
-||d9.sina.com.cn^
 ||dcads.sina.com.cn^
 ||emarketing.sina.com.cn^
 ||int.dpool.sina.com.cn^
@@ -4105,11 +4110,8 @@
 ||ad.us.sinaimg.cn^
 ||d0.sinaimg.cn^
 ||d1.sinaimg.cn^
-||d2.sinaimg.cn^
 ||d3.sinaimg.cn^
 ||d6.sinaimg.cn^
-||d7.sinaimg.cn^
-||d8.sinaimg.cn^
 ||hits.sinajs.cn^
 ||newspush.sinajs.cn^
 ||rs.sinajs.cn^
@@ -4266,7 +4268,6 @@
 ||steamproxy.net^
 ||stg8.com^
 ||stgowan.com^
-||stnew.xyz^
 ||info.stockstar.com^
 ||same.stockstar.com^
 ||studylabs.cn^
@@ -4922,6 +4923,7 @@
 ||wlgxaij.cn^
 ||wlhcb.cn^
 ||wmmax.com^
+||bdjiaoben.wmxa.cn^
 ||wn68din.cn^
 ||wndj.net^
 ||www.wndlkj.com^
